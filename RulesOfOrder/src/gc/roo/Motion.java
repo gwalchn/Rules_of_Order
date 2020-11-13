@@ -1,5 +1,5 @@
 package gc.roo;
 
-public interface Motion {
+public interface Motion { 
 
 }
