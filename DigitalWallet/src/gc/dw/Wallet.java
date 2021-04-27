@@ -2,5 +2,7 @@ package gc.dw;
 
 public interface Wallet {
 	
-	public void getAsset(int id);
+	public Asset getAsset(int id);
+	public void putIn(Asset asset);
+	public boolean takingOut(Asset asset);
 }
